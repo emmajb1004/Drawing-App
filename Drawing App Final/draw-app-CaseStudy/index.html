@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="lib/p5.min.js"></script>
+    <script src="lib/p5.dom.js"></script>
+    <script src="lib/p5.sound.min.js"></script>
+
+    <script src="sketch.js"></script>
+
+    <!-- add extra scripts below -->
+    <script src="sprayCanTool.js"></script>
+
+    <script src="toolbox.js"></script>
+    <script src="colourPalette.js"></script>
+    <script src="helperFunctions.js"></script>
+
+    <script src="freehandTool.js"></script>
+    <script src="lineToTool.js"></script>
+    <script src="mirrorDrawTool.js"></script>
+    <script src="stampTool.js"></script>
+    <script src="shapesTool.js"></script>
+    <script src="fillTool.js"></script>
+    <script src="DraggableShapesCircle.js"></script>
+    <script src="circle.js"></script>
+    <script src="DraggableShapesSquare.js"></script>
+    <script src="square.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="box header">
+        My Drawing App
+
+        <button id="clearButton">Clear</button>
+        <button id="saveImageButton">Save Image</button>
+      </div>
+      <div class="box" id="sidebar"></div>
+      <div id="content"></div>
+      <div id="palette" class="box colourPalette"></div>
+      <div class="box options"></div>
+    </div>
+      <div id="menu" class="menus">
+        <div  id="stamps">
+          <div id="star"> <image src="Stamps/star.png" width="50px" height="40px"></image>Press One</div>
+          <div id="boba"> <image src="Stamps/boba.png" width="50px" height="40px"></image>Press Two</div>
+          <div id="cat"> <image src="Stamps/cat.png" width="50px" height="40px"></image>Press Three</div>
+          <div id="dog"> <image src="Stamps/dog.png" width="50px" height="40px""></image>Press Four</div>
+          <div id="heart"> <image src="Stamps/icecream.png" width="50px" height="40px"></image>Press Five</div>
+          <div id="icecream"> <image src="Stamps/smile.png" width="50px" height="40px"></image>Press Six</div>
+          <div id="smile"> <image src="Stamps/heart.png" width="50px" height="40px"></image>Press Seven</div>
+        </div>
+      </div>
+  </body>
+</html>
